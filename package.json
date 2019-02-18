@@ -1,0 +1,27 @@
+{
+  "name": "typescriptschool",
+  "version": "1.0.0",
+  "description": "a special project for learning typescript and the command tsc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxh19890103/typescriptschool.git"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "tsc"
+  ],
+  "author": "Singhi john",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxh19890103/typescriptschool/issues"
+  },
+  "homepage": "https://github.com/zxh19890103/typescriptschool#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  }
+}
