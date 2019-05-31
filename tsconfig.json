@@ -4,7 +4,9 @@
         "target": "es6",
         "module": "es2015",
         "rootDir": "./src",
-        "outDir": "./dist"
+        "outDir": "./dist",
+        "jsx": "react",
+        "jsxFactory": "React.createElement",
     },
     "exclude": ["node_modules", "./extra.ts"]
 }
