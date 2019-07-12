@@ -4,3 +4,34 @@ declare namespace S {
 
     type T3 = T1 | T2
 }
+
+type Point = {
+    x: number;
+    y: number;
+};
+
+type Label = {
+    name: string;
+};
+
+interface Shape {
+    x: number
+    y: number
+}
+
+type EnhancedShape<T> = T | Shape
+
+type EnhancedShapeType = EnhancedShape<{ name: string, x: string }>
+
+let s: EnhancedShapeType
+
+const shape: EnhancedShapeType = {
+    x: 9,
+    y: 900,
+    name: "d"
+}
+
+type budda = string & number
+
+let mk: number = 90
+let h: budda = mk
