@@ -1,2 +1,1 @@
-const typescript = require('typescript')
-// console.log(typescript)h
+// const typescript = require('typescript')

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "rootDir": "./",
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "inlineSourceMap": true,
+        "inlineSources": true
+    },
+    "references": [
+        {
+            "path": "../baseUrl",
+        }
+    ]
+}
